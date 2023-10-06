@@ -1,0 +1,43 @@
+.cards {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    flex-direction: row;
+}
+
+.imd-div{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: -30%;
+    border-radius: 28px;
+    margin: 6%;
+}
+
+.hide-div{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .cards {
+       flex-direction: column;
+       width: 100%;
+       height: auto;
+    }
+
+    .hide-div{
+        display: flex;
+        flex-direction: column;
+        margin: 6%;
+        
+    }
+
+    .hide-div button{
+        margin: 3%;
+    }
+
+    .imd-div{
+        display: none;
+        margin-top: 50%;
+    }
+}

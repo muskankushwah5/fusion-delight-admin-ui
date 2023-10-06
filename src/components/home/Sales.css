@@ -1,0 +1,40 @@
+/* Default styles */
+.small-text {
+  font-size: 12px;
+}
+
+.last-small-text {
+  font-size: 12px;
+  margin-left: 20%;
+}
+
+.icon-container {
+  background-color: #7380ec;
+  border-radius: 50%;
+  width: 16%;
+  height: 16%;
+  margin-top: 4%;
+  margin-left: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 768px) {
+  .small-text {
+    font-size: 10px; 
+  }
+
+  .last-small-text {
+    font-size: 10px; 
+    margin-left: 10%; 
+  }
+
+  .icon-container {
+    width: 30%; 
+    height: 30%; 
+    margin-top: 2%; 
+    margin-left: 10%; 
+  }
+}
